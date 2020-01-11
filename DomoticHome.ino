@@ -14,16 +14,16 @@ const char NombreBT[13] = "Domotic Home";
 const char Pass[5] = "1996";
 
 //		Creamos las constantes para el Switch.
-const char Cod_Puerta     =	  'P';
-const char Cod_Cortinas   =   'C';
-const char Cod_Vent       =	  'V';
-const char Cod_Off        = 	'0';
-const char Cod_Mas_Vel    =	  '+';
-const char Cod_Menos_Vel  =   '-';
-const char Cod_Led_Hab2   = 	'2';
-const char Cod_Led_Hab1   =   '1';
-const char Cod_Led_Bath   = 	'B';
-const char Cod_Led_Cocina =   'K';
+const char Cod_Puerta     =	 'P';
+const char Cod_Cortinas   =  	 'C';
+const char Cod_Vent       =	 'V';
+const char Cod_Off        = 	 '0';
+const char Cod_Mas_Vel    =	 '+';
+const char Cod_Menos_Vel  =   	 '-';
+const char Cod_Led_Hab2   = 	 '2';
+const char Cod_Led_Hab1   =  	 '1';
+const char Cod_Led_Bath   = 	 'B';
+const char Cod_Led_Cocina =  	 'K';
 
 /*
 Códigos:
@@ -58,9 +58,9 @@ bool Door;
 bool Windows;
 bool Fan;
 bool Led1; // Habitación izquierda  (2)
-bool Led2; // Habitación derecha	  (1)
+bool Led2; // Habitación derecha    (1)
 bool Led3; // Baño y escaleras      (B)
-bool Led4; // Cocina				        (K)
+bool Led4; // Cocina		    (K)
 
 void pip(){
   //	Para apagar y encender el led integrado.
